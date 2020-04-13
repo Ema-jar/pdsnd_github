@@ -304,8 +304,9 @@ def main():
         else:
             print("No data left after filter application, please try again changing your filter")
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        print('\nWould you like to restart? Enter yes or no.\n')
+        restart = collect_user_input(tuple(["yes", "no"]))
+        if restart != 'yes':
             break
 
 
