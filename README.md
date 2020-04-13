@@ -1,15 +1,35 @@
-### Date created
-Include the date you created this project and README file.
+### Date of last submission: 13th April 2020
 
-### Project Title
-Replace the Project Title
+### Bike share data analysis 
 
-### Description
-Describe what your project is about and what it does
+This project contains a python script you can use to extract important information about
+a bike sharing business.
+
+The script has been implemented using Python 3.8.2
+
+The function implemented inside the script are:
+ - init_df(df)
+ - get_filters()
+ - collect_user_input(available_options)
+ - load_data(city, month, day)
+ - time_stats(df)
+ - station_stats(df)
+ - calculate_max_frequency(df, column_name)
+ - trip_duration_stats(df)
+ - duration_info_are_present(df)
+ - user_stats(df)
+ - print_rows(df, number_of_rows)
 
 ### Files used
-Include the files used
+
+The only file used is `bikeshare.py`. 
+
+You can run this script with the command: `python bikeshare.py`
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+The following websites have been largely used during the implementation of this script: 
+ - Pandas - https://pandas.pydata.org/pandas-docs/stable/reference/index.html
+ - Python - https://docs.python.org/3/
+ - Anaconda - https://docs.anaconda.com/
+ - Stack Overflow - https://stackoverflow.com/

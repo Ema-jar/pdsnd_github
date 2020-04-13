@@ -267,10 +267,13 @@ def print_rows(df, number_of_rows):
     Display a number of rows of the data frame based on the passed value of number_of_rows
     """
 
+    # print the first number_of_rows of the data frame 
     if number_of_rows not in ['random', '42', 'quit']:
         print(df[:int(number_of_rows)])
+    # print an Ester Egg message
     elif number_of_rows == '42':
         print('Sorry but 42 is supposed to be The Answer, not a question, don\'t panic and try again :)')
+    # print a random number (between 1 and 20) of rows from the data frame
     else:
         sample_value = randrange(1, 21)
         print(df.sample(n = sample_value))
@@ -291,6 +294,7 @@ def main():
             trip_duration_stats(df)
             user_stats(df)
 
+            # after stats have been printed the user can see a sample of the data frame
             print('Would you like to see a sample of the users? Enter yes or no.')
             show_sample = collect_user_input(tuple(["yes", "no"]))
             while show_sample != 'no':
