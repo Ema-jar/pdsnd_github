@@ -7,6 +7,19 @@ a bike sharing business.
 
 The script has been implemented using Python 3.8.2
 
+The function implemented inside the script are:
+ - init_df(df)
+ - get_filters()
+ - collect_user_input(available_options)
+ - load_data(city, month, day)
+ - time_stats(df)
+ - station_stats(df)
+ - calculate_max_frequency(df, column_name)
+ - trip_duration_stats(df)
+ - duration_info_are_present(df)
+ - user_stats(df)
+ - print_rows(df, number_of_rows)
+
 ### Files used
 
 The only file used is `bikeshare.py`. 
