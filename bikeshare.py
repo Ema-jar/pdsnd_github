@@ -8,8 +8,11 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 SELECTABLE_CITIES = tuple(CITY_DATA)
+
 SELECTABLE_MONTHS = tuple(["all", "january", "february", "march", "april", "may", "june", "july", "august","september", "october", "november", "dicember"])
+
 SELECTABLE_DAYS = tuple(["all", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"])
+
 SELECTABLE_N_ROWS = tuple(["random", "10", "30", "42", "50", "quit"])
 
 def init_df(df):
